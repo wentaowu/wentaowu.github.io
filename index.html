@@ -48,17 +48,18 @@
 <ul>
 	<li><b>Query Processing and Query Optimization:</b>
 		<ul>
+			<li><em>Autonomous Database Knob Tuning</em>
+				<ul>
+					<li>Tuning the Lookahead Distance for PostgreSQL Asynchronous IO <a href="papers/vldb26-pg-aio.pdf">[VLDB 2026]</a></li>
+					<li>Budget-aware Query Tuning: An AutoML Perspective <a href="papers/sigmodr24-budget-aware-query-tuning.pdf">[SIGMOD Record 2024]</a></li>
+				</ul>
+			</li>
 			<li><em>Query Performance Regression</em>
 				<ul>
 					<li>Understanding and Detecting Query Performance Regression in Practical Index Tuning <a href="papers/sigmod26-qpr-detection.pdf">[SIGMOD 2026]</a></li>
 					<li>Hybrid Cost Modeling for Reducing Query Performance Regression in Index Tuning <a href="papers/tkde24-hybrid-cost-modeling.pdf">[IEEE TKDE 2025]</a></li>
 					<li>AI Meets AI: Leveraging Query Executions to Improve Index Recommendations <a href="papers/sigmod19-auto-indexing.pdf">[SIGMOD 2019]</a></li>
 					<li>Plan Stitch: Harnessing the Best of Many Plans <a href="papers/vldb18-plan-stitch.pdf">[VLDB 2018]</a></li>
-				</ul>
-			</li>
-			<li><em>Autonomous Database Knob Tuning</em>
-				<ul>
-					<li>Budget-aware Query Tuning: An AutoML Perspective <a href="papers/sigmodr24-budget-aware-query-tuning.pdf">[SIGMOD Record 2024]</a></li>
 				</ul>
 			</li>
 			<li><em>Query Optimization for Data Stream Processing Systems</em>
@@ -89,6 +90,7 @@
 		<ul>
 			<li><em>Robust Learning-based Index Tuning</em>
 				<ul>
+					<li>Evaluating the Practical Effectiveness of LLM-Driven Index Tuning with Microsoft Database Tuning Advisor <a href="papers/vldb26-llm-index-tuning.pdf">[VLDB 2026]</a></li>
 					<li>RIB: Robust Learning-based Index Benefit Estimation <a href="papers/sigmod26-robust-index-benefit.pdf">[SIGMOD 2026]</a></li>
 					<li>UTune: Towards Uncertainty-Aware Online Index Tuning <a href="papers/icde26-utune.pdf">[ICDE 2026]</a></li>
 				</ul>
@@ -219,7 +221,7 @@
 	<li><em>International Conference on Very Large Data Bases (<b>VLDB</b>)</em>: 
 		<ul>
 			<li>2027 (Research Track)</li>
-			<li>2026 (Research Track)</li>
+			<li>2026 (Research Track, Demo Track)</li>
 			<li>2023 (Research Track)</li>
 			<li>2020 (Demo Track)</li>
 		</ul>
@@ -329,23 +331,23 @@
 	<li>
 		<h4>2026</h4>
 		<ol>
-			<li><b>Tuning the Lookahead Distance for PostgreSQL Asynchronous IO.</b><br>
+			<li><b><a href="https://www.vldb.org/pvldb/vol19/p3982-wu.pdf">Tuning the Lookahead Distance for PostgreSQL Asynchronous IO</a>.</b><br>
 			<b>Wentao Wu</b>, Jiasheng Hu, Manoj Syamala, Andres Freund, and Vivek Narasayya.<br>
-			In <em>Proceedings of the VLDB Endowment (<b>VLDB 2026</b>)</em>, Vol. 19, 2026.
+			In <em>Proceedings of the VLDB Endowment (<b>VLDB 2026</b>)</em>, Vol. 19, No. 12: 3982-3995, 2026. [<a href="papers/vldb26-pg-aio.pdf">PDF</a>]
 			</li>
 
 			<br>
 
-			<li><b>Evaluating the Practical Effectiveness of LLM-Driven Index Tuning with Microsoft Database Tuning Advisor.</b><br>
+			<li><b><a href="https://www.vldb.org/pvldb/vol19/p4049-wang.pdf">Evaluating the Practical Effectiveness of LLM-Driven Index Tuning with Microsoft Database Tuning Advisor</a>.</b><br>
 			Xiaoying Wang, <b>Wentao Wu</b>, Vivek Narasayya, and Surajit Chaudhuri.<br>
-			In <em>Proceedings of the VLDB Endowment (<b>VLDB 2026</b>)</em>, Vol. 19, 2026. [<a href="https://arxiv.org/abs/2603.09181">arXiv</a>]
+			In <em>Proceedings of the VLDB Endowment (<b>VLDB 2026</b>)</em>, Vol. 19, No. 12: 4049-4062, 2026. [<a href="papers/vldb26-llm-index-tuning.pdf">PDF</a>] [<a href="papers/llm-index-tuning-full.pdf">FULL</a>] [<a href="https://arxiv.org/abs/2603.09181">arXiv</a>]
 			</li>
 
 			<br>
 
-			<li><b>UTune: Towards Uncertainty-Aware Online Index Tuning.</b><br>
+			<li><b><a href="https://doi.org/10.1109/ICDE65706.2026.00160">UTune: Towards Uncertainty-Aware Online Index Tuning</a>.</b><br>
 			Chenning Wu, Sifan Chen, <b>Wentao Wu</b>, Yinan Jing, Zhenying He, Kai Zhang, and X. Sean Wang.<br>
-			In <em>Proceedings of the IEEE 42nd International Conference on Data Engineering (<b>ICDE 2026</b>)</em>, 2026. [<a href="papers/icde26-utune.pdf">PDF</a>] [<a href="https://arxiv.org/abs/2601.18199">arXiv</a>]
+			In <em>Proceedings of the IEEE 42nd International Conference on Data Engineering (<b>ICDE 2026</b>)</em>: 2121-2134, 2026. [<a href="papers/icde26-utune.pdf">PDF</a>] [<a href="https://arxiv.org/abs/2601.18199">arXiv</a>]
 			</li>
 
 			<br>
